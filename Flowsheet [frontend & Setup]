@@ -34129,7 +34129,7 @@ window.vnCtx = function(){
   function iconBtn(){
     var b = document.createElement('button');
     b.type = 'button'; b.id = 'vnFsIc'; b.className = 'btn btn-xs vd-hic vn-fs-ic';
-    b.setAttribute('aria-label', 'Flowsheet — open in the Visit Note'); b.setAttribute('data-tt', 'Flowsheet');  
+    b.setAttribute('aria-label', 'Flowsheet — open in the Visit Note'); b.setAttribute('data-tt', 'Flowsheet');
     b.setAttribute('aria-describedby', 'pbiTooltip'); b.setAttribute('aria-pressed', 'false');
     b.innerHTML = ICON;
     b.addEventListener('click', function(){ enter(); });
